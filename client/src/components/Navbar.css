@@ -1,0 +1,25 @@
+.navbar {
+  position: absolute;
+  bottom: 19cm;
+  left: 32cm;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+.navbar-contents {
+  background-color: transparent;
+  display: flex;
+}
+
+.navbar-contents a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 30px;
+  transition: 1s;
+}
+.navbar-contents a:hover {
+  transition: 0.5s;
+  color: rgb(195, 195, 195);
+}
