@@ -1,0 +1,43 @@
+.xS7jXsSAls {
+  position: absolute;
+  bottom: 13cm;
+  left: 18cm;
+  color: white;
+}
+.CsZiS81Sa {
+  position: absolute;
+  bottom: 12cm;
+  left: 11cm;
+  color: white;
+}
+.jsXy2AFTpSIlx {
+  position: absolute;
+  bottom: 11.5cm;
+  left: 7cm;
+  color: white;
+}
+
+._aCsxW81 {
+  position: absolute;
+  bottom: 9.5cm;
+  border-style: solid;
+  left: 18.5cm;
+  background-color: transparent;
+  border-radius: 1rem;
+  border-color: #ffffff white white white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 1s;
+}
+
+._aCsxW81:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 100ms;
+  box-shadow: 0 0 50px white;
+}
