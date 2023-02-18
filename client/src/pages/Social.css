@@ -1,0 +1,82 @@
+.main-text {
+  position: absolute;
+  bottom: 13cm;
+  left: 18cm;
+  color: white;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10cm;
+  display: flex;
+  left: 17cm;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+
+.discord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #404eed;
+  border-radius: 50%;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+.discord svg {
+  transition: 1s;
+}
+
+.discord:hover {
+  background-color: #404eed;
+  box-shadow: 0 0 10px #404eed44, 0 0 50px #404eed, 0 0 100px #404eed;
+  color: white;
+}
+.discord:hover svg {
+  transition: 1s;
+  fill: white;
+}
+
+.github:hover {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.545), 0 0 50px white,
+    0 0 100px white;
+}
+
+.instagram:hover {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.545), 0 0 50px rgb(255, 0, 0),
+    0 0 100px rgb(255, 0, 0);
+}
