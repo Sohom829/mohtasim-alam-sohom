@@ -1,0 +1,104 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.bubbles {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.bubbles span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #fc3c3c;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #fc3c3c44, 0 0 50px #fc3c3c, 0 0 100px #fc3c3c;
+  animation: bgAnimation 15s linear infinite;
+  animation-duration: calc(200s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+  background: #9500ff;
+  box-shadow: 0 0 0 10px #9500ff44, 0 0 50px #9500ff, 0 0 100px #9500ff;
+}
+
+@keyframes bgAnimation {
+  0% {
+    transform: translateX(-100vw) translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateX(10vw) translateY(-10vh) scale(1);
+  }
+}
+
+.bubbles2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.bubbles2 span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #5aff2d;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #5aff2d44, 0 0 50px #5aff2d, 0 0 100px #5aff2d;
+  animation: bgAnimation2 15s linear infinite;
+  animation-duration: calc(200s / var(--i));
+}
+
+.bubbles2 span:nth-child(even) {
+  background: #3cd2fc;
+  box-shadow: 0 0 0 10px #3cd2fc44, 0 0 50px #3cd2fc, 0 0 100px #3cd2fc;
+}
+
+@keyframes bgAnimation2 {
+  0% {
+    transform: translateX(100vw) translateY(-100vh) scale(0);
+  }
+  100% {
+    transform: translateX(-10vw) translateY(10vh) scale(1);
+  }
+}
+
+.bubbles3 {
+  position: relative;
+  display: flex;
+}
+
+.bubbles3 span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #5aff2d;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #5aff2d44, 0 0 50px #5aff2d, 0 0 100px #5aff2d;
+  animation: bgAnimation3 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
+
+.bubbles3 span:nth-child(even) {
+  background: #3cd2fc;
+  box-shadow: 0 0 0 10px #3cd2fc44, 0 0 50px #3cd2fc, 0 0 100px #3cd2fc;
+}
+
+@keyframes bgAnimation3 {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+}
