@@ -17,3 +17,152 @@
   text-align: center;
   transition: 1s;
 }
+
+@media (max-width: 1246px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9cm;
+    left: 10cm;
+    font-size: 50px;
+  }
+
+  .nExS91Da {
+    bottom: 7cm;
+    color: white;
+    left: 5.5cm;
+    font-size: 50px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 801px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9cm;
+    left: 7cm;
+    font-size: 50px;
+  }
+
+  .nExS91Da {
+    bottom: 7cm;
+    color: white;
+    left: 3cm;
+    font-size: 50px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 668px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9cm;
+    left: 5cm;
+    font-size: 50px;
+  }
+
+  .nExS91Da {
+    bottom: 7cm;
+    color: white;
+    left: 1cm;
+    font-size: 50px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 601px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9cm;
+    left: 4cm;
+    font-size: 50px;
+  }
+
+  .nExS91Da {
+    position: absolute;
+    bottom: 7cm;
+    color: white;
+    left: 1cm;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 482px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9cm;
+    left: 3cm;
+    font-size: 50px;
+  }
+
+  .nExS91Da {
+    position: absolute;
+    bottom: 7cm;
+    color: white;
+    left: 0.5cm;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 354px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9.5cm;
+    left: 2cm;
+    font-size: 40px;
+  }
+
+  .nExS91Da {
+    position: absolute;
+    bottom: 7cm;
+    color: white;
+    left: 0cm;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 287px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9.5cm;
+    left: 1cm;
+    font-size: 40px;
+  }
+
+  .nExS91Da {
+    position: absolute;
+    bottom: 7cm;
+    color: white;
+    right: 0.5cm;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 258px) {
+  .ZxSajUshA8 {
+    position: absolute;
+    bottom: 9.5cm;
+    left: 1cm;
+    font-size: 40px;
+  }
+
+  .nExS91Da {
+    position: absolute;
+    bottom: 5cm;
+    color: white;
+    left: 0cm;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+  }
+}
